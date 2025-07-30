@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="css/projects.css">
+</head>
+
+<body class="projects">
+
+    <div class="title-box">My Projects</div>
+
+    <div class="tabs">
+        <a href="home.html">Home</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">About Me/Contact</a>
+    </div>
+
+    <div class="project-grid">
+        <button class="project-btn" onclick="openModal('modal1')">Number Guessing Game</button>
+        <button class="project-btn" onclick="openModal('modal2')">Text Based RPG</button>
+        <button class="project-btn" onclick="openModal('modal3')">The Midnight Chronicles</button>
+    </div>
+
+    <!-- Popups (Modals) -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1')">&times;</span>
+            <h2>Number Guessing Game</h2>
+            <p>I made a working number guessing game that allows the player to chose from 4 difficulties: Easy, Medium,
+                Hard, and Custom.
+                Each difficulty controls the range of numbers and the amount of guesses allowed. The custom difficulty
+                allows the player to choose those values for themselves.
+            </p>
+        </div>
+    </div>
+
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal2')">&times;</span>
+            <h2>Text Based RPG</h2>
+            <p>I made a RPG that uses java to make a text based battle system and enviroment. It includes a class
+                creation system with 6 classes for the player.
+                It includes a wide variety of weapons and armor for the player to use. You can battle through 15
+                different enemies that are selected use a weighted rng system.
+                Each encounter ends in a reward of either weapons or armor.
+            </p>
+        </div>
+    </div>
+
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal3')">&times;</span>
+            <h2>The Midnight Chronicles,
+                Case #1: The Reels of Death </h2>
+            <p>This is a work in progress project based on a friend's D&D system and campaign. In this game you will go
+                through Las Vegas whilst trying to solve
+                a mystery involving a mysterious creature that the most people can remember is the sound of a roulette
+                wheel clicking. Escape from this creature
+                and working with a benefactor to eventually take it down.
+            </p>
+        </div>
+    </div>
+
+    <script src="js/projects.js"></script>
+</body>
+
+</html>

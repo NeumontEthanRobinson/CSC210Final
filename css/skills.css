@@ -1,0 +1,50 @@
+body.skills {
+    background-color: #1a1919;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.skill {
+    text-align: center;
+    width: 120px;
+}
+
+.skill img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.title-box {
+    background-color: #072083;
+    padding: 20px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    border-bottom: 2px solid #000000;
+}
+
+.tabs {
+    background-color: #333333;
+    overflow: hidden;
+}
+
+.tabs a {
+    float: left;
+    display: block;
+    color: rgb(255, 215, 193);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.tabs a:hover {
+    background-color: #E59982;
+}
